@@ -1,6 +1,15 @@
 #include <iostream>
 #include <stdio.h>
 
+int sumaDatos(int a, int b) {
+
+	int resultado;
+	resultado = a + b;
+	
+
+	return resultado;
+}
+
 int main()
 {
 	int iDato1;
@@ -17,7 +26,7 @@ int main()
 	scanf_s("%d", &iDato2);
 
 	//Operacion
-	iResultado = iDato1 + iDato2;
+	iResultado = sumaDatos(iDato1,iDato2);
 
 	printf("El resultado de la suma es: %d",iResultado);
 
